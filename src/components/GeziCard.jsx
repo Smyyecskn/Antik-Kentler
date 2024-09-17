@@ -13,7 +13,7 @@ const GeziCard = () => {
         placeholder="Search a Ancient City"
         className="w-50 m-auto"
       />
-      <Container className="rounded my-4 p-3 card-container">
+      <Container className=" my-4 p-3 card-container">
         <Row className="justify-content-center g-4">
           {data.map((item, i) => (
             <Col xl={3} lg={4} md={6} key={i}>
